@@ -64,12 +64,4 @@ typings/
 # dotenv environment variables file
 .env
 
-.babelrc
-.browserslistrc
-.editorconfig
-.prettierrc
-.stylelintrc
 banner.png
-gulpfile.js 
-package-lock.json
-package.json
