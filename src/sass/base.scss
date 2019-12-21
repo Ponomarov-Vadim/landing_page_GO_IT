@@ -14,9 +14,27 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+main {
+  height: 1000px;
+  background-color: black;
+}
+
 .wrapper {
-  width: 1170px;
+  width: 81.25%;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    width: 81.25%;
+    // width: 750px;
+  }
+}
+
+@media screen and (min-width: 1208px) {
+  .wrapper {
+    width: 1190px;
+  }
 }
 
 // font-family: 'Ubuntu', sans-serif;

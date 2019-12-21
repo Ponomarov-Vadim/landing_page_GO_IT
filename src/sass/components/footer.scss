@@ -43,3 +43,51 @@
   margin: 0;
   padding-bottom: 2.25rem;
 }
+
+@media (min-width: 768px) {
+  .page-footer__layer-team-headline {
+    padding-top: 5.75rem;
+    margin-bottom: 17.6rem;
+  }
+
+  .page-footer__layer-team-link {
+    font-size: 30px;
+  }
+
+  .layer-team {
+    display: flex;
+    margin-left: 4.6875rem;
+    padding-bottom: 1.1875rem;
+  }
+
+  .layer-team__logo {
+    margin: 0;
+  }
+
+  .layer-team__text {
+    font-size: 18px;
+    margin-left: 0.8125rem;
+    padding: 0;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-footer__layer-team-headline {
+    padding-top: 16.375rem;
+    margin-bottom: 38.7rem;
+  }
+
+  .page-footer__layer-team-link {
+    font-size: 60px;
+  }
+
+  .layer-team {
+    padding-bottom: 4.25rem;
+  }
+
+  .layer-team__text {
+    font-size: 25px;
+    margin-left: 1.875rem;
+  }
+}

@@ -6,6 +6,8 @@
 @import "base";
 @import "helpers/variables";
 @import "helpers/placeholder";
-@import 'components/footer.scss';
-@import 'components/media.scss';
-@import 'components/it-sfera.scss';
+@import "components/header-info.scss";
+@import "components/request-form.scss";
+@import 'components/media';
+@import 'components/it-sfera';
+@import 'components/footer';
