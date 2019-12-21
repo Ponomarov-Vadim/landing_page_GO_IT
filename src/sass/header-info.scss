@@ -1,0 +1,48 @@
+.header-section {
+  background-color: $primary-black-bg-color;
+  padding: 26px 0 30px;
+}
+
+.header-info {
+  padding: 26px 0 16px;
+
+  &__text {
+    margin: 0 0 24px;
+    color: $primary-white-color;
+    font-family: "Ubuntu";
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  &__header-how {
+    margin: 0 0 22px;
+    color: $primary-colorful-color;
+    font-family: "Ubuntu";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+  &__text-how {
+    margin: 0 0 24px;
+    color: $primary-white-color;
+    font-family: "Ubuntu";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  &__meeting-time {
+    margin: 0;
+    color: $secondary-colorful-color;
+    font-family: "Ubuntu";
+    font-size: 14px;
+    font-weight: 700;
+
+    &--bigger {
+      font-family: "Ubuntu";
+      font-size: 20px;
+      font-weight: 400;
+    }
+  }
+}
