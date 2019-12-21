@@ -2,6 +2,10 @@
  * Все паршалы импортировать в этот файл
  */
 
-@import "normalize.scss";
-@import "base.scss";
-@import "variables.scss";
+@import "normalize";
+@import "base";
+@import "helpers/variables";
+@import "helpers/placeholder";
+@import 'components/footer.scss';
+@import 'components/media.scss';
+@import 'components/it-sfera.scss';

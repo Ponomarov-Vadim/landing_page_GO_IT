@@ -1,0 +1,45 @@
+.page-footer {
+  background-color: #181c27;
+  background-image: url(../images/footer/stars-desktop.png);
+  text-align: center;
+  background-position: center;
+}
+
+.page-footer__layer-team {
+  background-image: url(../images/footer/photo-desktop.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.page-footer__layer-team-headline {
+  padding-top: 3.87rem;
+  margin: 0;
+  margin-bottom: 18.87rem;
+}
+
+.page-footer__layer-team-link {
+  color: #00eaff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  border-bottom: 2px solid #00eaff;
+}
+
+.layer-team__logo {
+  display: block;
+  margin-bottom: 0.87rem;
+}
+
+.layer-team__text {
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.56px;
+  margin: 0;
+  padding-bottom: 2.25rem;
+}

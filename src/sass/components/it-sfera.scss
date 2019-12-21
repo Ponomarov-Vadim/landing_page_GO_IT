@@ -1,0 +1,155 @@
+.it-ukraine {
+  padding: 30px;
+}
+
+.it-ukraine__overview {
+  margin-bottom: 34px;
+}
+
+.it-ukraine__overview-headline {
+  width: 183px;
+  color: #1b202a;
+  font-family: 'Ubuntu';
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+.it-ukraine__overview-market {
+}
+
+.it-ukraine__overview-market-headline {
+  color: #1b202a;
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.56px;
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+.it-ukraine__overview-market-statistics {
+  background-image: url(../images/map-mobile.png);
+  background-repeat: no-repeat;
+  background-position: 17px 443px;
+}
+
+.overview-market-statistics__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 16px;
+}
+
+.overview-market-statistics__item {
+  margin-bottom: 26px;
+}
+
+.overview-market-statistics__item-numbers {
+  color: #00eaff;
+  font-family: 'Ubuntu';
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -1.2px;
+  line-height: 25px;
+  margin: 0;
+  margin-bottom: 14px;
+}
+
+.overview-market-statistics__item-text {
+  width: 215px;
+  color: #1b202a;
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.it-ukraine__sentence-headline {
+  width: 228px;
+  color: #1b202a;
+  font-family: 'Ubuntu';
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+.it-ukraine__sentence-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 36px;
+}
+
+.it-ukraine__sentence-item {
+  width: 185px;
+  color: #1b202a;
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.56px;
+  margin: 0;
+  margin-bottom: 18px;
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #00eaff;
+    position: absolute;
+    left: -35px;
+  }
+}
+
+.overview-market-income__headline {
+  width: 206px;
+  color: #1b202a;
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.56px;
+}
+
+.overview-market-income__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.overview-market-income__item{
+  width: 50%;
+}
+
+.overview-market-income__numbers {
+  width: 92px;
+  color: #00eaff;
+  font-family: 'Ubuntu';
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: -1.2px;
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+.overview-market-income__text {
+  width: 92px;
+  color: #1b202a;
+  font-family: 'Ubuntu';
+  font-size: 10px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 11px;
+  letter-spacing: -0.4px;
+}
