@@ -4,6 +4,6 @@
 
 @import "normalize.scss";
 @import "base.scss";
-@import "variables.scss";
-@import "header-info.scss";
-@import "request-form.scss";
+@import "./helpers/variables.scss";
+@import "./components/header-info.scss";
+@import "./components/request-form.scss";
