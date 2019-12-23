@@ -11,78 +11,81 @@
     background-size: cover;
 
     &-headline {
-      padding-top: 3.87rem;
+      @extend %headline-h2;
+      letter-spacing: 0.4px;
+      padding-top: 62px;
       margin: 0;
-      margin-bottom: 18.87rem;
+      margin-bottom: 302px;
     }
 
     &-link {
-      color: #00eaff;
-      @extend %headline-h2;
-      letter-spacing: 0.4px;
+      color: $primary-colorful-color;
       text-decoration: none;
       text-transform: uppercase;
       border-bottom: 2px solid $primary-colorful-color;
     }
   }
 
-  .layer-team__logo {
-    display: block;
-    margin-bottom: 0.87rem;
-  }
+  .layer-team {
+    &__logo {
+      display: block;
+      margin-bottom: 14px;
+    }
 
-  .layer-team__text {
-    color: $primary-white-bg-color;
-    @extend %text-regular-14px;
-    margin: 0;
-    padding-bottom: 2.25rem;
+    &__text {
+      color: $primary-white-bg-color;
+      @extend %text-regular-14px;
+      margin: 0;
+      padding-bottom: 36px;
+    }
   }
 }
 
 @media screen and (min-width: 768px) {
-  .page-footer__layer-team-headline {
-    padding-top: 5.75rem;
-    margin-bottom: 17.6rem;
+  .wrapper {
+    margin: 0 auto;
   }
 
-  .page-footer__layer-team-link {
-    font-size: 30px;
-  }
+  .page-footer {
+    &__layer-team-headline {
+      padding-top: 92px;
+      margin-bottom: 285px;
+      font-size: 30px;
+    }
 
-  .layer-team {
-    display: flex;
-    margin-left: 4.6875rem;
-    padding-bottom: 1.1875rem;
-  }
+    .layer-team {
+      display: flex;
+      padding-bottom: 18px;
 
-  .layer-team__logo {
-    margin: 0;
-  }
+      &__logo {
+        margin: 0;
+      }
 
-  .layer-team__text {
-    font-size: 18px;
-    margin-left: 0.8125rem;
-    padding: 0;
-    line-height: 30px;
+      &__text {
+        font-size: 18px;
+        margin-left: 13px;
+        padding: 0;
+        line-height: 29px;
+      }
+    }
   }
 }
 
 @media screen and (min-width: 1208px) {
-  .page-footer__layer-team-headline {
-    padding-top: 16.375rem;
-    margin-bottom: 38.7rem;
-  }
+  .page-footer {
+    &__layer-team-headline {
+      padding-top: 262px;
+      margin-bottom: 638px;
+      font-size: 60px;
+    }
 
-  .page-footer__layer-team-link {
-    font-size: 60px;
-  }
+    .layer-team {
+      padding-bottom: 66px;
 
-  .layer-team {
-    padding-bottom: 4.25rem;
-  }
-
-  .layer-team__text {
-    font-size: 25px;
-    margin-left: 1.875rem;
+      &__text {
+        font-size: 25px;
+        margin-left: 30px;
+      }
+    }
   }
 }
