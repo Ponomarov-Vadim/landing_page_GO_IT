@@ -1,0 +1,88 @@
+.page-footer {
+  background-color: $primary-black-bg-color;
+  background-image: url(../images/footer/stars-desktop.png);
+  text-align: center;
+  background-position: center;
+
+  &__layer-team {
+    background-image: url(../images/footer/photo-desktop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &-headline {
+      padding-top: 3.87rem;
+      margin: 0;
+      margin-bottom: 18.87rem;
+    }
+
+    &-link {
+      color: #00eaff;
+      @extend %headline-h2;
+      letter-spacing: 0.4px;
+      text-decoration: none;
+      text-transform: uppercase;
+      border-bottom: 2px solid $primary-colorful-color;
+    }
+  }
+
+  .layer-team__logo {
+    display: block;
+    margin-bottom: 0.87rem;
+  }
+
+  .layer-team__text {
+    color: $primary-white-bg-color;
+    @extend %text-regular-14px;
+    margin: 0;
+    padding-bottom: 2.25rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .page-footer__layer-team-headline {
+    padding-top: 5.75rem;
+    margin-bottom: 17.6rem;
+  }
+
+  .page-footer__layer-team-link {
+    font-size: 30px;
+  }
+
+  .layer-team {
+    display: flex;
+    margin-left: 4.6875rem;
+    padding-bottom: 1.1875rem;
+  }
+
+  .layer-team__logo {
+    margin: 0;
+  }
+
+  .layer-team__text {
+    font-size: 18px;
+    margin-left: 0.8125rem;
+    padding: 0;
+    line-height: 30px;
+  }
+}
+
+@media screen and (min-width: 1208px) {
+  .page-footer__layer-team-headline {
+    padding-top: 16.375rem;
+    margin-bottom: 38.7rem;
+  }
+
+  .page-footer__layer-team-link {
+    font-size: 60px;
+  }
+
+  .layer-team {
+    padding-bottom: 4.25rem;
+  }
+
+  .layer-team__text {
+    font-size: 25px;
+    margin-left: 1.875rem;
+  }
+}
