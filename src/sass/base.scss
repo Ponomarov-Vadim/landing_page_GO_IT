@@ -14,11 +14,6 @@ body {
     "Helvetica Neue", sans-serif;
 }
 
-main {
-  height: 1000px;
-  background-color: black;
-}
-
 .wrapper {
   width: 81.25%;
   margin: 0 auto;
@@ -27,7 +22,6 @@ main {
 @media screen and (min-width: 768px) {
   .wrapper {
     width: 81.25%;
-    // width: 750px;
   }
 }
 
