@@ -1,0 +1,91 @@
+.page-footer {
+  background-color: $primary-black-bg-color;
+  background-image: url(../images/footer/stars-desktop.png);
+  text-align: center;
+  background-position: center;
+
+  &__layer-team {
+    background-image: url(../images/footer/photo-desktop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &-headline {
+      @extend %headline-h2;
+      letter-spacing: 0.4px;
+      padding-top: 62px;
+      margin: 0;
+      margin-bottom: 302px;
+    }
+
+    &-link {
+      color: $primary-colorful-color;
+      text-decoration: none;
+      text-transform: uppercase;
+      border-bottom: 2px solid $primary-colorful-color;
+    }
+  }
+
+  .layer-team {
+    &__logo {
+      display: block;
+      margin-bottom: 14px;
+    }
+
+    &__text {
+      color: $primary-white-bg-color;
+      @extend %text-regular-14px;
+      margin: 0;
+      padding-bottom: 36px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    margin: 0 auto;
+  }
+
+  .page-footer {
+    &__layer-team-headline {
+      padding-top: 92px;
+      margin-bottom: 285px;
+      font-size: 30px;
+    }
+
+    .layer-team {
+      display: flex;
+      padding-bottom: 18px;
+
+      &__logo {
+        margin: 0;
+      }
+
+      &__text {
+        font-size: 18px;
+        margin-left: 13px;
+        padding: 0;
+        line-height: 29px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1208px) {
+  .page-footer {
+    &__layer-team-headline {
+      padding-top: 262px;
+      margin-bottom: 638px;
+      font-size: 60px;
+    }
+
+    .layer-team {
+      padding-bottom: 66px;
+
+      &__text {
+        font-size: 25px;
+        margin-left: 30px;
+      }
+    }
+  }
+}

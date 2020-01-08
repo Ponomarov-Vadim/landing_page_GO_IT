@@ -1,0 +1,249 @@
+.it-area {
+  padding: 30px 0;
+
+  &__overview {
+    margin-bottom: 32px;
+
+    &-headline {
+      width: 183px;
+      color: $primary-black-h2-color;
+      @extend %headline-h2;
+      margin: 0;
+      margin-bottom: 28px;
+    }
+
+    &-market {
+      &-headline {
+        color: $primary-black-h2-color;
+        @extend %headline-h2-and-btn;
+        margin: 0;
+        margin-bottom: 28px;
+      }
+
+      &-statistics {
+        background-image: url(../images/it-area/map-mobile.png);
+        background-repeat: no-repeat;
+        background-position: 16px 435px;
+
+        .overview-market-statistics {
+          &__list {
+            @extend %list-style-none;
+            padding-left: 16px;
+          }
+
+          &__item {
+            margin-bottom: 24px;
+          }
+
+          &__item-numbers {
+            color: $primary-colorful-color;
+            @extend %numbers-p;
+            margin: 0;
+            margin-bottom: 14px;
+          }
+
+          &__item-text {
+            width: 89%;
+            color: $primary-black-h2-color;
+            @extend %text-regular-14px;
+            margin: 0;
+          }
+        }
+
+        .overview-market-income__headline {
+          width: 206px;
+          color: $primary-black-h2-color;
+          @extend %headline-h2-and-btn;
+          margin: 0;
+          margin-bottom: 12px;
+        }
+
+        .overview-market-income__list {
+          @extend %list-style-none;
+          display: flex;
+          justify-content: space-between;
+        }
+
+        .overview-market-income__item {
+          width: 50%;
+        }
+
+        .overview-market-income__numbers {
+          width: 92px;
+          color: $primary-colorful-color;
+          @extend %numbers-p;
+          font-size: 25px;
+          margin: 0;
+          margin-bottom: 4px;
+        }
+
+        .overview-market-income__text {
+          width: 92px;
+          color: $primary-black-h2-color;
+          @extend %text-regular-14px;
+          font-size: 10px;
+          margin: 0;
+          line-height: 11px;
+        }
+      }
+    }
+  }
+
+  &__sentence {
+    &-headline {
+      width: 228px;
+      color: $primary-black-h2-color;
+      @extend %headline-h2;
+      margin: 0;
+      margin-bottom: 28px;
+    }
+
+    &-list {
+      @extend %list-style-none;
+      padding-left: 36px;
+    }
+
+    &-item {
+      width: 82.58%;
+      color: $primary-black-h2-color;
+      @extend %text-regular-14px;
+      margin: 0;
+      margin-bottom: 18px;
+      position: relative;
+
+      &::before {
+        content: '';
+        display: block;
+        width: 15px;
+        height: 15px;
+        background-color: $primary-colorful-color;
+        position: absolute;
+        left: -35px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .it-area.wrapper {
+    width: 100%;
+  }
+
+  .it-area {
+    padding: 30px;
+
+    &__overview {
+      margin-bottom: 50px;
+
+      &-market--overlay {
+        box-shadow: -18px 18px 0px $secondary-white-bg-color;
+      }
+
+      &-headline {
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      &-market {
+        box-shadow: 0 15px 32px rgba(0, 0, 0, 0.16);
+        background-color: $primary-white-bg-color;
+        padding: 52px;
+
+        &-headline {
+          width: 53.85%;
+          font-size: 18px;
+          text-align: center;
+          margin: 0 auto;
+          margin-bottom: 40px;
+        }
+
+        &-statistics {
+          background-image: url(../images/it-area/map-tablet.png);
+          background-position: 100% 100%;
+
+          .overview-market-statistics {
+            &__list {
+              display: flex;
+              justify-content: space-between;
+              flex-wrap: wrap;
+              padding: 0;
+            }
+
+            &__item {
+              width: 30%;
+            }
+
+            &__item-text {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+
+    &__sentence {
+      padding: 0 52px;
+
+      &-headline {
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      &-item {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1208px) {
+  .it-area.wrapper {
+    width: 1190px;
+    margin: 0 auto;
+  }
+
+  .it-area {
+    padding: 89px 0 124px;
+    display: flex;
+    justify-content: space-between;
+
+    &__overview {
+      width: 59%;
+
+      &-headline {
+        width: 437px;
+        font-size: 48px;
+        line-height: 60px;
+        margin-bottom: 68px;
+      }
+    }
+
+    &__sentence {
+      width: 36.5%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 0;
+      margin-left: 50px;
+      margin-bottom: 50px;
+
+      &-headline {
+        width: 100%;
+        font-size: 48px;
+        line-height: 60px;
+        text-align: start;
+      }
+
+      &-item {
+        width: 100%;
+        font-size: 18px;
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

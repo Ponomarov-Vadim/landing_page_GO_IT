@@ -1,0 +1,152 @@
+.header-section {
+  background-color: $primary-black-bg-color;
+  padding: 26px 0 30px;
+  background-image: radial-gradient(ellipse at 100% 50%, #172942 30px, transparent);
+}
+
+.header-info {
+  padding: 26px 0 16px;
+
+  &__text {
+    margin: 0 0 24px;
+    color: $primary-white-color;
+    font-family: $primary-font-family;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  &__header-how {
+    margin: 0 0 22px;
+    color: $primary-colorful-color;
+    font-family: $primary-font-family;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+  &__text-how {
+    margin: 0 0 24px;
+    color: $primary-white-color;
+    font-family: $primary-font-family;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  &__meeting-time {
+    margin: 0;
+    color: $secondary-colorful-color;
+    font-family: $primary-font-family;
+    font-size: 14px;
+    font-weight: 700;
+
+    &--bigger {
+      font-family: $primary-font-family;
+      font-size: 20px;
+      font-weight: 400;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-section {
+    padding: 40px 0 48px;
+  }
+
+  .header-info {
+    padding: 32px 0 22px;
+
+    &__text {
+      margin: 0 0 42px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 15px;
+      letter-spacing: 1px;
+    }
+
+    &__header-how {
+      margin: 0 0 28px;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 43px;
+      letter-spacing: -1.6px;
+    }
+
+    &__text-how {
+      margin: 0 0 32px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+    }
+
+    &__meeting-time {
+      margin: 0 0 10px;
+      font-size: 18px;
+      letter-spacing: -0.2px;
+      font-weight: 500;
+
+      &--bigger {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: -0.6px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1208px) {
+  .header-section {
+    padding: 37px 0 100px;
+    background-image: radial-gradient(ellipse at 50% 50%, #172942 30px, transparent);
+
+    &__wrapper {
+      padding: 72px 0 0;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .header-info {
+    padding: 0;
+    width: 638px;
+
+    &__text {
+      margin: 0 0 54px;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 1px;
+    }
+
+    &__header-how {
+      margin: 0 0 60px;
+      font-weight: 700;
+      letter-spacing: -1.6px;
+      font-size: 60px;
+      line-height: 60px;
+    }
+
+    &__text-how {
+      margin: 0 0 45px;
+      font-weight: 300;
+      line-height: 22px;
+      font-size: 35px;
+      line-height: 43px;
+    }
+
+    &__meeting-time {
+      margin: 0 0 25px;
+      letter-spacing: -0.2px;
+      font-weight: 500;
+      font-size: 29px;
+
+      &--bigger {
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: -0.6px;
+      }
+    }
+  }
+}
