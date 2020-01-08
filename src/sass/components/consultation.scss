@@ -1,0 +1,82 @@
+.consultation {
+  &__headline {
+    @extend %headline-h2;
+    color: $primary-black-h2-color;
+    margin-top: 32px;
+    margin-bottom: 22px;
+  }
+
+  &__list {
+    @extend %list-style-none;
+    margin-bottom: 38px;
+
+    &-item {
+      margin-bottom: 20px;
+      position: relative;
+
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 5px;
+        left: 0;
+        width: 20px;
+        height: 12px;
+        background-image: url(../../images/strelka.png);
+      }
+
+      &-text {
+        color: $primary-black-h2-color;
+        @extend %text-regular-14px;
+        margin: 0;
+        padding-left: 36px;
+
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .consultation {
+    &__headline {
+      font-size: 30px;
+      line-height: 40px;
+      margin-top: 40px;
+      margin-bottom: 32px;
+    }
+
+    &__list-item-text {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+}
+
+@media screen and (min-width: 1208px) {
+  .consultation {
+    display: flex;
+    justify-content: space-between;
+
+    &__headline {
+      width: 50%;
+      font-size: 48px;
+      line-height: 60px;
+      margin-top: 130px;
+      padding-right: 104px;
+    }
+
+    &__list {
+      width: 50%;
+      margin-top: 140px;
+      margin-bottom: 100px;
+
+      &-item-text {
+        font-size: 18px;
+        line-height: 30px;
+      }
+    }
+  }
+}
