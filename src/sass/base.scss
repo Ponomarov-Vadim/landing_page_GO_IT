@@ -15,5 +15,18 @@ body {
 }
 
 .wrapper {
-  width: 1300px;
+  width: 81.25%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    width: 81.25%;
+  }
+}
+
+@media screen and (min-width: 1208px) {
+  .wrapper {
+    width: 1190px;
+  }
 }

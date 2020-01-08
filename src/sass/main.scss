@@ -2,6 +2,13 @@
  * Все паршалы импортировать в этот файл
  */
 
-@import "normalize.scss";
-@import "base.scss";
-@import "variables.scss";
+@import "normalize";
+@import "base";
+@import "helpers/variables";
+@import "helpers/placeholder";
+@import "components/header-info";
+@import "components/request-form";
+@import "components/questions-it";
+@import "components/it-area";
+@import "components/footer";
+@import "components/find-your-way";
